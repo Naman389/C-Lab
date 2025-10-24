@@ -15,9 +15,6 @@ int main() {
     printf("*pint = %p\n", p1);
     printf("*pfloat = %p\n",p2);
     printf("*pchar = %p\n", p3);
-   
-    (*p1)++;
-    printf("*p1=%d\n",*p1);
 
     p1++;
     p2++;
