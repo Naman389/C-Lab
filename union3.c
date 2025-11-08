@@ -15,19 +15,20 @@ union Details{
 
     int main(){
         union  Details P;
-        strcpy(P.name,"Naman");
-         printf("Name:%s\n",P.name);
-        strcpy(P.home_address,"jaunpur");
-         printf("Home address:%s\n",P.home_address);
-        strcpy(P.hostel_address,"Bidholi");
-         printf("Hostel address:%s\n",P.hostel_address);
-        strcpy(P.city,"dehradun");
-        printf("City:%s\n",P.city);
-        strcpy(P.state,"uttarakhand");
-         printf("State:%s\n",P.state);
-        strcpy(P.zip,"248007");
-         printf("Zip-%s\n",P.zip);
+        printf("Enter name:");
+       scanf("%s",P.name);
+       printf("Enter home address:");
+       scanf("%s",P.home_address);
+       printf("Enter hostel address:");
+       scanf("%s",P.hostel_address);
+       printf("Enter city:");
+       scanf("%s",P.city);
+       printf("Enter state:");
+       scanf("%s",P.state);
+       printf("Enter zip code:");
+       scanf("%s",P.zip);
 
-        printf("Present address-Bidholi,dehradun,uttarakhand,248007");
+
+         
         return 0;
     }
